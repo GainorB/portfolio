@@ -1,0 +1,32 @@
+[{
+	"core": [
+		"HTML5",
+		"CSS",
+		"SASS",
+		"Javascript",
+		"jQuery",
+		"React.js",
+		"Node.js",
+		"Express.js",
+		"PostgreSQL",
+		"RESTful APIs",
+		"MongoDB/Mongoose",
+		"Heroku Deployment",
+		"Test Driven Development",
+		"Project Management Tools"
+	],
+	"soft": [
+		"Github",
+		"Bootstrap",
+		"Materialize",
+		"Foundation",
+		"Flexbox",
+		"Wordpress",
+		"Zenhub",
+		"Github Projects",
+		"Ruby (on Rails)",
+		"Electron",
+		"Google Firebase",
+		"Digital Ocean Deployment"
+	]
+}]
