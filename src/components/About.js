@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
-import '../flexboxgrid.css';
 
 export default class About extends Component {
 

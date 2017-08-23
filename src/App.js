@@ -36,6 +36,9 @@ export default class App extends Component {
     }
 
     this.getGists = this.getGists.bind(this);
+    this.ProjectsComponent = this.ProjectsComponent.bind(this);
+    this.aboutComponent = this.aboutComponent.bind(this);
+    this.resourcesComponent = this.resourcesComponent.bind(this);
     //this.getGistsDescriptions = this.getGistsDescriptions.bind(this);
   }
 
@@ -99,21 +102,21 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header />
-        <Router>
-          <Switch>
-            <Route path="/" exact component={Home}></Route>
-            <Route path="/about" render={() => this.aboutComponent()}></Route>
-            <Route path="/contact" component={Contact}></Route>
-            {/* <Route path="/hackathons" component={Hackathons}></Route> */}
-            <Route path="/projects" render={() => this.ProjectsComponent()}></Route>
-            <Route path="/resources" render={() => this.resourcesComponent()}></Route>
-            <Route path="/*" component={ErrorPage}></Route>
-          </Switch>
-        </Router>
-        <Footer />
-      </div>
+      <Router>
+        <div>
+          <Header />
+            <Switch>
+              <Route exact path="/" component={Home}></Route>
+              <Route path="/about" render={() => this.aboutComponent()}></Route>
+              <Route path="/contact" component={Contact}></Route>
+              {/* <Route path="/hackathons" component={Hackathons}></Route> */}
+              <Route path="/projects" render={() => this.ProjectsComponent()}></Route>
+              <Route path="/resources" render={() => this.resourcesComponent()}></Route>
+              <Route path="/*" component={ErrorPage}></Route>
+            </Switch>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }

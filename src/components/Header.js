@@ -1,9 +1,7 @@
 import React from 'react'; // eslint-disable-next-line
 import { NavLink } from 'react-router-dom';
-import '../App.css';
-import '../flexboxgrid.css';
 
-export default function Header(props) {
+const Header = () => {
     return (
         <header>
             <div className="container">
@@ -17,12 +15,12 @@ export default function Header(props) {
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <nav>
                             <ul id="navbar">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
-                                <li><a href="/resources">Resources</a></li>
-                                <li><a href="/projects">Projects</a></li>
-                                {/* <li><a href="/hackathons">Hackathons</a></li> */}
-                                <li><a href="/contact">Contact</a></li>
+                                <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
+                                <li><NavLink exact to="/about" activeClassName="selected">About</NavLink></li>
+                                <li><NavLink exact to="/resources" activeClassName="selected">Resources</NavLink></li>
+                                <li><NavLink exact to="/projects" activeClassName="selected">Projects</NavLink></li>
+                                {/* <li><a to="/hackathons">Hackathons</a></li> */}
+                                <li><NavLink exact to="/contact" activeClassName="selected">Contact</NavLink></li>
                             </ul>
                         </nav>
                     </div>
@@ -32,3 +30,5 @@ export default function Header(props) {
         </header>
     );
 }
+
+export default Header;

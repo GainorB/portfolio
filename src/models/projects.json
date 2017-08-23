@@ -25,6 +25,6 @@
         "image": "images/typr.png",
         "description": "A game built primarily with vanilla Javascript, utilizing axios to fetch an API to display random unrepeating words. Focused on testing and improving typing skills and speed. The user can select the difficulty of the game by choosing the word length. At the end, high scores are saved in a Google Firebase database.",
         "technologies": ["Javascript", "RESTful API", "Google Firebase"],
-        "resources": ["https://github.com/GainorB/typr", "http://gainorbostwick.com/typr/"]
+        "resources": ["https://github.com/GainorB/typr", "https://gainorb.github.io/typr/"]
     }
 ]

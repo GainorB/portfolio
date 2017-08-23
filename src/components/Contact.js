@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css';
 
-export default function Contact(props) {
+const Contact = () => {
     return (
         <div className="container contact">
             <div className="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
@@ -23,5 +22,7 @@ export default function Contact(props) {
             </div>
             <hr className="hr"/>
         </div>
-    )
+    );
 }
+
+export default Contact;

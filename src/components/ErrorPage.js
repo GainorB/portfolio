@@ -1,10 +1,11 @@
 import React from 'react';
-import '../App.css';
 
-export default function ErrorPage(props) {
+const ErrorPage = () => {
     return (
         <div>
           Error PAGE
         </div>
-    )
+    );
 }
+
+export default ErrorPage;

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
-import '../flexboxgrid.css';
 
 export default class Resources extends Component {
 
@@ -49,6 +47,6 @@ export default class Resources extends Component {
                 </div>
                 <hr className="hr"/>
             </div>
-        )
+        );
     }
 }

@@ -122,6 +122,10 @@ header .subheader {
     padding-top: 1px;
 }
 
+.selected {
+    font-weight: 400;
+}
+
 /* MINI INTRODUCTION */
 
 .mini {
