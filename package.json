@@ -20,5 +20,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://github.com/GainorB/portfolio"
+  "homepage": "http://gainorbostwick.com/"
 }
